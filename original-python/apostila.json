@@ -1,0 +1,38 @@
+[
+  {
+    "topico": "variavel",
+    "palavras_chave": ["variavel", "variável", "let", "const", "dados", "memoria"],
+    "titulo": "Conceito de Variável",
+    "conteudo": "Uma variável é um espaço alocado na memória RAM do computador com um nome específico (rótulo) usado para armazenar dados que podem ser lidos ou alterados durante a execução do programa. Metáfora didática: imagine uma gaveta etiquetada onde você guarda objetos temporariamente."
+  },
+  {
+    "topico": "funcao",
+    "palavras_chave": ["funcao", "função", "bloco", "parametro", "retorno"],
+    "titulo": "Conceito de Função",
+    "conteudo": "Uma função é um bloco autônomo e reutilizável de instruções de código que recebe entradas (parâmetros), executa uma lógica específica e pode retornar um resultado. Evita repetição de código e facilita a manutenção."
+  },
+  {
+    "topico": "api",
+    "palavras_chave": ["api", "endpoint", "json", "integracao", "integrar", "requisicao"],
+    "titulo": "Conceito de API e Function Calling",
+    "conteudo": "API (Interface de Programação de Aplicações) é um conjunto de regras e protocolos que permite que sistemas diferentes se comuniquem e troquem dados de forma segura (normalmente via formato JSON). Em IA, Function Calling permite que o agente monte uma chamada estruturada para que a API execute uma ação externa no mundo real."
+  },
+  {
+    "topico": "multiagente",
+    "palavras_chave": ["multiagente", "monolitico", "orquestrador", "handoff", "agentes"],
+    "titulo": "Sistemas Multiagente e Orquestração",
+    "conteudo": "Em vez de um único robô sobrecarregado (agente monolítico), sistemas multiagente dividem as responsabilidades entre especialistas coordenados por um Agente Orquestrador. A transferência formal de tarefas e contexto entre especialistas é chamada de Handoff."
+  },
+  {
+    "topico": "rag",
+    "palavras_chave": ["rag", "recuperacao", "documento", "alucinacao", "base", "contexto"],
+    "titulo": "RAG (Recuperação Aumentada por Geração)",
+    "conteudo": "RAG é a técnica em que o sistema busca trechos confiáveis em uma base de documentos oficial antes de responder. Esses trechos são injetados no prompt da IA, garantindo que ela responda com base em fatos reais e eliminando alucinações."
+  },
+  {
+    "topico": "git",
+    "palavras_chave": ["git", "branch", "commit", "merge", "versao"],
+    "titulo": "Versionamento Colaborativo com Git",
+    "conteudo": "O Git gerencia o histórico de alterações do código. Branches permitem desenvolver melhorias e testar novos agentes em paralelo sem colocar em risco a versão principal (main). Commits registram o progresso e Merges integram as soluções validadas."
+  }
+]

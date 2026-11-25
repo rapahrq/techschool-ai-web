@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>TechSchool AI | Assistente de Aprendizagem</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">TS</div>
+        <div><strong>TechSchool <span>AI</span></strong><small>ASSISTENTE DE APRENDIZAGEM</small></div>
+      </div>
+      <button class="new-chat" id="newChat">＋ Nova conversa</button>
+      <div class="side-label">ESPAÇO DE APRENDIZAGEM</div>
+      <button class="nav-item active" data-panel="chat"><span>◉</span> Assistente</button>
+      <button class="nav-item" data-panel="knowledge"><span>▤</span> Base de conhecimento</button>
+      <button class="nav-item" data-panel="history"><span>◷</span> Histórico da sessão</button>
+      <div class="sidebar-bottom">
+        <div class="status-dot"></div><span>Ambiente de aprendizagem</span>
+        <small>Projeto Integrador • 4º Bimestre</small>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Abrir menu">☰</button>
+        <div><span class="eyebrow">TECHSCHOOL / <b id="sectionName">ASSISTENTE</b></span><h1 id="pageTitle">Olá! Vamos aprender?</h1></div>
+        <div class="top-right"><span class="online"><i></i> Sistema disponível</span><div class="avatar">AI</div></div>
+      </header>
+
+      <section class="view active" id="chatView">
+        <div class="welcome" id="welcome">
+          <div class="hero-icon">✦</div>
+          <p class="eyebrow">SEU APOIO EM DESENVOLVIMENTO DE SISTEMAS</p>
+          <h2>Aprender tecnologia ficou<br/><em>mais simples.</em></h2>
+          <p class="welcome-copy">Faça uma pergunta sobre os conteúdos da apostila ou consulte um endereço pelo CEP. O assistente identifica qual especialista deve ajudar.</p>
+          <div class="suggestions">
+            <button class="suggestion" data-prompt="O que é uma variável?"><b>⌘</b><span><strong>Conceitos de programação</strong><small>O que é uma variável?</small></span><span class="arrow">↗</span></button>
+            <button class="suggestion" data-prompt="Como funciona o RAG?"><b>▤</b><span><strong>Inteligência artificial</strong><small>Como funciona o RAG?</small></span><span class="arrow">↗</span></button>
+            <button class="suggestion" data-prompt="Qual o endereço do CEP 01001-000?"><b>⌖</b><span><strong>Consulta de localização</strong><small>Consultar CEP 01001-000</small></span><span class="arrow">↗</span></button>
+          </div>
+        </div>
+        <div class="messages" id="messages" aria-live="polite"></div>
+        <form class="composer" id="chatForm">
+          <textarea id="messageInput" rows="1" placeholder="Digite sua pergunta..." aria-label="Digite sua pergunta"></textarea>
+          <div class="composer-bottom"><span>Respostas baseadas na apostila do projeto.</span><button type="submit" id="sendButton">Enviar <span>↑</span></button></div>
+        </form>
+        <p class="disclaimer">O TechSchool AI é um protótipo educacional. Confira informações importantes com seu professor.</p>
+      </section>
+
+      <section class="view content-view" id="knowledgeView">
+        <div class="section-intro"><p class="eyebrow">RAG / DOCUMENTOS</p><h2>Base de conhecimento</h2><p>Conteúdos cadastrados na apostila oficial utilizada pelo agente tutor.</p></div>
+        <div class="knowledge-grid" id="knowledgeGrid"></div>
+      </section>
+
+      <section class="view content-view" id="historyView">
+        <div class="section-intro"><p class="eyebrow">MEMÓRIA DE CURTO PRAZO</p><h2>Histórico da sessão</h2><p>As interações desta sessão ficam salvas neste navegador.</p></div>
+        <div class="history-actions"><span id="historyCount">0 interações</span><button class="clear-button" id="clearHistory">Limpar histórico</button></div>
+        <div id="historyList" class="history-list"></div>
+      </section>
+    </main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

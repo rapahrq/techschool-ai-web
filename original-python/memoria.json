@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-11-23 20:08:45",
+    "remetente": "Aluno",
+    "agente": "Interface",
+    "texto": "O que e uma variavel?"
+  },
+  {
+    "timestamp": "2026-11-23 20:08:45",
+    "remetente": "Assistente",
+    "agente": "AgenteTutor",
+    "texto": "📘 [Tutor TechSchool - Conceito de Variável]:\nUma variável é um espaço alocado na memória RAM do computador com um nome específico (rótulo) usado para armazenar dados que podem ser lidos ou alterados durante a execução do programa. Metáfora didática: imagine uma gaveta etiquetada onde você guarda objetos temporariamente.\n\n💡 Dica de amigo: Pense nesse conceito como uma peça de montar; cada parte tem seu lugar certo no código.\nFicou claro para você ou quer que eu detalhe mais alguma parte?"
+  },
+  {
+    "timestamp": "2026-11-23 20:08:45",
+    "remetente": "Aluno",
+    "agente": "Interface",
+    "texto": "Qual a velocidade de uma tartaruga ninja?"
+  },
+  {
+    "timestamp": "2026-11-23 20:08:45",
+    "remetente": "Assistente",
+    "agente": "AgenteTutor",
+    "texto": "📘 [Tutor TechSchool]: Puxa, dei uma olhada na nossa apostila oficial e não encontrei esse conteúdo cadastrado. Para não alucinar e te passar algo errado, prefiro te pedir para conferir se a dúvida é sobre Variáveis, Funções, APIs, Sistemas Multiagente, RAG ou Git! Quer tentar de novo com um desses temas?"
+  },
+  {
+    "timestamp": "2026-11-23 20:08:45",
+    "remetente": "Aluno",
+    "agente": "Interface",
+    "texto": "Qual o endereco do cep 01001-000?"
+  },
+  {
+    "timestamp": "2026-11-23 20:08:45",
+    "remetente": "Assistente",
+    "agente": "AgenteFerramentas",
+    "texto": "🌐 [Agente de Ferramentas / API - Consulta Concluída]:\n📍 Logradouro: Praça da Sé, 100\n🏙️ Bairro: Centro\n🗺️ Cidade/UF: São Paulo/SP\nℹ️ Fonte de Dados: Base Local de Polos TechSchool"
+  }
+]
